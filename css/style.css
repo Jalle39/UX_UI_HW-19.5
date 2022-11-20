@@ -171,9 +171,8 @@ color: white;
 img {
   border-radius: 10px;
 }
-  h2 {
-    text-align: center;
-}
+
+
 
 .mySkills {
   justify-content: center; 
@@ -240,11 +239,11 @@ img {
     padding-bottom: 15px; 
     border-radius: 11px; 
     
-  }
+ 
+ }
   .cardText:hover{
     background-color: #1F4F7C;
     color: white;
-
   } 
 
   button {
@@ -261,6 +260,7 @@ img {
   h2 {
     font-family: Lusitana;
     text-align: center;
+    font-size: 24pt;
   }
 
   h3 {
