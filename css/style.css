@@ -1,0 +1,327 @@
+html {scroll-behavior: smooth}
+body {
+  background-color:#D9D9D9;
+}
+
+.header {
+background-color: #0F63B0;
+padding: 20px;
+text-align: left;
+padding-left: 275px;
+color: white;
+font-size: 30px;
+margin: -10px -10px 0px -10px;
+}
+
+@font-face {
+  font-family:Lusitana;
+  src: url('https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap');}
+
+ /* top navigation bar*/
+
+h1 {
+  font-family: Lusitana;
+}
+section.sticky {
+  position: sticky;
+  top: 0;
+  z-index: +1
+}
+ .topnav {
+background-color: #223C54;
+overflow: hidden;
+margin: 0px -10px;
+
+}
+.topnav a {
+float: Right;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+.topnav a:hover {
+background-color:#D9D9D9;
+color: black;
+}
+.topnav a.active {
+background-color:#d9d9d9;
+color: white;
+}
+
+/*Top Header*/
+
+.personal-logo {
+position: absolute;
+left: 50px;
+
+
+}
+.bar {
+  background-color: #223C54;
+  overflow: hidden;
+  margin: 0px -10px;
+  height: 30px;
+}
+
+#home {
+  color:black;
+}
+
+.homePageStatment{
+justify-content: center;
+width: 20%;
+border-style: solid;
+border-color:#349EFF;
+float: left;
+Padding: 10px;
+text-align: Center;
+margin-top: 2%;
+margin-left:10%;
+color: black;
+font-size: 30px;
+}
+
+.heroImage {
+  /* border-style: solid;
+  border-color: #223C54; */
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  margin-left: 650px;
+  padding:15%
+}
+.socialMediaIcons {
+  float: right;
+  height: 100%;
+  padding-top: 200px;
+}
+ 
+.emailaddress {
+ display: flex; 
+ padding: 25px;
+}
+ 
+.solution {
+ padding: 25px; 
+}
+
+.resume-button {
+ background-color:black;
+ color: white;
+ margin: 60px;
+ padding: 5px;
+ width: 200px
+}
+.card {
+display: block;
+margin-top: 60px;
+padding-right: 150px;
+}
+
+/* Contact */
+#formGroupExampleInput3{
+  height: 500px;
+  width: 500px;
+}
+
+
+.form-group{
+  justify-content: center;
+  margin-left: 45%;
+  margin-right:45%;
+  padding-bottom:50px;
+}
+ 
+.footercard {
+ height:0px;
+ width:0px;
+ padding-right: 50px;
+ float: right;
+ padding-top: 10px;
+ }
+ 
+.footer {
+padding-right: 5px;
+position: static;
+left: 0;
+bottom: 0;
+width: 102%;
+background-color: #223C54;
+overflow: hidden;
+margin: 0px -10px -10px -10px;
+
+}
+.footer a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+.footer a:hover {
+background-color: #d9d9d9;
+color: black;
+}
+.footer a.active {
+background-color:#d9d9d9;
+color: white;
+}
+img {
+  border-radius: 10px;
+}
+  h2 {
+    text-align: center;
+}
+
+.mySkills {
+  justify-content: center; 
+}
+
+.flex-Container {
+  /* border-style: solid; */
+  border-color:#0F63B0;
+  display: flex;
+  width: 66%;
+  padding-left: 5vw;
+  position:relative;
+  margin-top: 5%;
+  margin-left: 12%;
+  z-index: -1;
+}
+
+.skillCard {
+    margin: 15px;
+    text-align: center;
+    background-color: #D9D9D9;
+    border-style: solid;
+    border-color:#223C54;
+    align-content: center;
+    padding: 25px;
+    border-radius: 10px;
+}
+  
+  /*My Work */
+
+   .workCards {
+    width: 75%;
+    height:20%;
+    margin: 0px 15%;
+    margin-top: 5%;
+    display: flex;
+    border-style: solid;
+    border-color: #767676;
+    border-radius: 15px;
+   
+    }
+
+.mySkills {
+  z-index:-1;
+}
+
+  .workCardImage {
+    padding: 4px;
+    width: 170px;
+   
+  }
+  
+  .workCardFlex{
+    display: flexbox;
+    width: 60%;
+    height:20vh;
+  }
+  .cardText {
+    color: white;
+    background-color:#349EFF;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 15px; 
+    border-radius: 11px; 
+    
+  }
+  .cardText:hover{
+    background-color: #1F4F7C;
+    color: white;
+
+  } 
+
+  button {
+    margin-top: 3%;
+    color: white;
+    grid-area: button;
+    background-color: #767676;
+    padding: 10px;
+  }
+  .button                   {
+    background-color:#0F63B0;
+  }
+
+  h2 {
+    font-family: Lusitana;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: Lusitana;
+    grid-area: h3;
+    text-align: left;
+    font-size: 32pt;
+    Padding: 0%;
+  }
+
+  h4 {
+    padding-top: 5%;
+    font-family: Lusitana;
+    margin: 5%;
+    text-align: Center;
+    font-size: 48pt;
+    border-style: solid;
+    border-width: 20px;
+    border-color: #223C54 ;
+    border-left: #1F4F7C;
+    border-right:#1F4F7C;
+    border-top:#1F4F7C
+  }
+  
+/*About Section */
+
+
+
+  .footercard {
+    height:0px;
+    width:0px;
+    padding-right: 50px;
+    float: right;
+    margin-right: 20px;
+    padding-top: 10px;
+    }
+   .footer {
+   padding-right: 5px;
+   position: static;
+   left: 0;
+   bottom: 0;
+   width: 102%;
+   background-color: #223C54;
+   overflow: hidden;
+   margin: 0px -10px -10px -10px;
+   
+   }
+   .footer a {
+   float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+   }
+   .footer a:hover {
+   background-color: #ddd;
+   color: black;
+   }
+   .footer a.active {
+   background-color: #D9D9D9;
+   color: white;
+   }
